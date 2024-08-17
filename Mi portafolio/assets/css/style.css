@@ -1,0 +1,64 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    /* align-items: start; */
+    justify-content: center;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    padding-top: 20%;
+}
+
+header p {
+    font-size: 1.25rem;
+}
+
+section {
+    padding: 60px 0;
+}
+
+.habilidad{
+    height: 160px;
+    width: auto;
+}
+
+#contactForm {
+    max-width: 500px;
+}
+.bg-img{
+    background-image: url(../img/Hacker3.jpg);
+    height: 700px;
+    width: auto;
+}
+.img-ability{
+    height: 200px;
+    width: 100%;
+}
+.img-proyecto{
+    height: 200px;
+}
+.img-carrusel{
+    height: 480px;
+}
+.icon-FB{
+    font-size: 40px;
+    color:blue;
+}
+.icon-TK{
+    font-size: 40px;
+    color: black;
+}
+.icon-IN{
+    font-size: 40px;
+    color: pink;
+}
