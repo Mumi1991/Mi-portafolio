@@ -14,51 +14,98 @@ header {
 }
 
 header h1 {
-    font-size: 3rem;
+    font-size: 6rem;
     margin-bottom: 20px;
-    padding-top: 20%;
+    padding-top: 15%;
+}
+
+h1 {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
 }
 
 header p {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
+    font-style: italic;
 }
 
 section {
     padding: 60px 0;
 }
 
-.habilidad{
+h2 {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+}
+
+.sobre-mi {
+    background-color: #cae6e0;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.sobreMi-p {
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+}
+
+.habilidad {
     height: 160px;
     width: auto;
+}
+
+#proyectos {
+    background-color: #eeeeee;
 }
 
 #contactForm {
     max-width: 500px;
 }
-.bg-img{
+
+.bg-img {
     background-image: url(../img/Hacker3.jpg);
     height: 700px;
     width: auto;
 }
-.img-ability{
+
+.img-ability {
     height: 200px;
     width: 100%;
 }
-.img-proyecto{
+
+.img-proyecto {
     height: 200px;
 }
-.img-carrusel{
+
+.img-carrusel {
     height: 480px;
 }
-.icon-FB{
+
+.icon-FB {
     font-size: 40px;
-    color:blue;
+    color: blue;
 }
-.icon-TK{
+
+.icon-TK {
     font-size: 40px;
     color: black;
 }
-.icon-IN{
+
+.icon-IN {
     font-size: 40px;
     color: pink;
+}
+
+.contacto {
+    padding-bottom: 30px;
+    background-color: #9fb4b1;
 }
