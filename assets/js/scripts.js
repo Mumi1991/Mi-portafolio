@@ -41,6 +41,6 @@ document.querySelectorAll(".btn_proyect").forEach(function(link){
         parrafo.classList.toggle("d-none");
         const card = cardbody.parentElement;
         console.log(card);
-        card.classList.toggle("bg-info");
+        card.classList.toggle("bg-light");
     })
 })
