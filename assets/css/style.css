@@ -1,3 +1,7 @@
+.nav-item:hover {
+    font-size: 18px;
+}
+
 body {
     font-family: 'Arial', sans-serif;
 }
@@ -51,16 +55,39 @@ h2 {
 
 .sobreMi-p {
     text-align: center;
-    color: black;
+    color: rgb(0, 49, 61);
     font-size: 20px;
     margin: auto;
     width: 70%;
     padding: 10px;
 }
 
+a {
+    text-decoration: none;
+}
+
+.container-fluid a {
+    text-decoration: none;
+}
+
+i {
+    color: rgb(57, 1, 71);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+i:hover {
+    color: #af0989;
+    font-size: 30px;
+}
+
 .habilidad {
     height: 160px;
     width: auto;
+}
+
+.card:hover {
+    border: 2px solid rgb(1, 130, 153);
 }
 
 #proyectos {
@@ -82,27 +109,12 @@ h2 {
     width: 100%;
 }
 
-.img-proyecto {
+/* .img-proyecto {
     height: 200px;
-}
+} */
 
 .img-carrusel {
     height: 480px;
-}
-
-.icon-FB {
-    font-size: 40px;
-    color: blue;
-}
-
-.icon-TK {
-    font-size: 40px;
-    color: black;
-}
-
-.icon-IN {
-    font-size: 40px;
-    color: pink;
 }
 
 .contacto {
